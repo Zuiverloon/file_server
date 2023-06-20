@@ -10,6 +10,6 @@ public class ResourceMappingConfig implements WebMvcConfigurer {
 
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry){
-        registry.addResourceHandler("/ive/**").addResourceLocations("file:/file/IVE");
+        registry.addResourceHandler("/ive/**").addResourceLocations("file:/file/IVE/");
     }
 }
